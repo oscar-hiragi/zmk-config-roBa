@@ -51,6 +51,13 @@
             bindings = <&kp LA(GRAVE)>;
             label = "MACRO_ZENHANKAKU";
         };
+
+        JP_colon_ast: JP_DQUOTE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SINGLE_QUOTE>;
+            label = "JP_DQUOTE";
+        };
     };
 
     behaviors {
@@ -69,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                   &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))               &kp MINUS      &kp H        &kp J  &kp K      &lt 4 L  &lt 5 SINGLE_QUOTE
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp COLON                   &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt_to_layer_0 2 GRAVE      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U  &lt 6 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SINGLE_QUOTE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp MINUS         &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
