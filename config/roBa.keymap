@@ -60,6 +60,13 @@
             bindings = <&kp SINGLE_QUOTE>;
             label = "JP_DQUOTE";
         };
+
+        JP_TEST: JP_TEST {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp 0x87>;
+            label = "JP_TEST";
+        };
     };
 
     behaviors {
