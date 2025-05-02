@@ -89,10 +89,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ESCAPE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
+&kp ESCAPE  &trans   &trans  &trans  &trans                      &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
+&kp F1      &kp F12  &trans  &trans  &trans  &trans      &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
+&trans      &trans   &trans  &trans  &trans  &trans      &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ESCAPE
+&trans      &trans   &trans  &trans  &trans  &trans      &trans  &trans                                            &trans
             >;
         };
 
