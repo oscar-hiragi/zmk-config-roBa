@@ -61,11 +61,25 @@
             label = "JP_DQUOTE";
         };
 
-        JP_TEST: JP_TEST {
+        JP_YEN: JP_YEN {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp 0x87>;
-            label = "JP_TEST";
+            label = "JP_YEN";
+        };
+
+        JP_UNDERSCORE: JP_UNDERSCORE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(0x87)>;
+            label = "JP_UNDERSCORE";
+        };
+
+        JP_PIPE: JP_PIPE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(0x89)>;
+            label = "JP_PIPE";
         };
     };
 
