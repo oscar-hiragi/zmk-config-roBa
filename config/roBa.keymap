@@ -12,7 +12,7 @@
     quick-tap-ms = <0>;
 };
 
-&lt { tapping-term-ms = <100>; };
+&lt { tapping-term-ms = <170>; };
 
 / {
     combos {
