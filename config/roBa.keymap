@@ -120,8 +120,8 @@
         SYMBOL {
             bindings = <
 &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                      &kp LS(N6)  &kp LS(N7)        &kp LS(N8)        &kp LS(N9)  &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &trans      &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans            &trans            &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &JP_PIPE    &JP_YEN
+&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans            &trans            &trans      &JP_UNDERSCORE
 &trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans                                                      &trans
             >;
         };
