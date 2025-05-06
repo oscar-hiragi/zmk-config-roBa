@@ -108,7 +108,7 @@
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        FUNCTION {
+        FUNCTION_NUMBER {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
@@ -119,10 +119,10 @@
 
         NUM {
             bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                              &kp LS(N6)        &kp LS(N7)         &kp LS(N8)      &kp LS(N9)       &kp LS(N0)
-&trans      &trans      &trans      &trans      &trans      &trans      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT
-&trans      &trans      &trans      &trans      &trans      &trans      &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
-&trans      &trans      &trans      &trans      &trans      &trans      &trans          &trans                                                                &kp PIPE
+&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                      &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)
+&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans      &trans      &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans      &trans      &trans      &trans
+&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans                                          &trans
             >;
         };
 
@@ -157,10 +157,10 @@
 
         layer_6 {
             bindings = <
-&trans                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&mt NUMBER_0 LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans                   &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
