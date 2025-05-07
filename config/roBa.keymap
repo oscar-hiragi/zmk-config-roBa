@@ -99,10 +99,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                             &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SINGLE_QUOTE  &kp H        &kp J  &kp K      &lt 5 L  &lt 4 DELETE
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp DELETE         &kp SEMICOLON     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE     &lt 1 ENTER                             &kp MINUS
+&kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U  &lt 6 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SEMICOLON  &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SINGLE_QUOTE
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp DELETE         &kp DELETE     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE  &lt 1 ENTER                             &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
