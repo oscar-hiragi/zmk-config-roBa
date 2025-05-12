@@ -100,7 +100,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                          &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SEMICOLON  &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SINGLE_QUOTE
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp COLON      &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SEMI
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp DELETE         &kp DELETE     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE  &lt 1 ENTER                             &kp MINUS
             >;
