@@ -100,7 +100,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                             &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp COLON         &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SEMI
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SEMI          &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SINGLE_QUOTE
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp DELETE         &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE     &lt 3 ENTER                             &kp MINUS
             >;
@@ -134,7 +134,7 @@
 &trans          &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                      &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         MOUSE {
