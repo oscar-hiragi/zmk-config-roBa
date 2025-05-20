@@ -99,30 +99,21 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                             &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SEMI          &kp H        &kp J  &kp K      &lt 5 L  &lt 4 SINGLE_QUOTE
+&kp Q             &kp W         &kp E         &kp R      &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G        &kp LS(LG(S))      &kp SEMI          &kp H        &kp J  &kp K      &lt 4 L  &lt 3 SINGLE_QUOTE
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &kp DELETE         &kp SINGLE_QUOTE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 2 GRAVE        &kp BACKSPACE     &lt 3 ENTER                             &kp MINUS
+&kp ESCAPE        &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 2 SPACE  &lt 1 GRAVE        &kp BACKSPACE     &lt 1 ENTER                             &kp MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        SYMBOL {
-            bindings = <
-&kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                      &kp LS(N6)  &kp LS(N7)        &kp LS(N8)  &kp LS(N9)  &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &kp LEFT_BRACKET  &kp EQUAL   &JP_PIPE    &JP_YEN
-&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans      &trans            &trans      &trans      &JP_UNDERSCORE
-&trans      &trans      &trans      &trans      &trans      &trans      &trans  &trans                                                &trans
-            >;
-        };
-
         FUNCTION_NUMBER {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                        &trans         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE
-&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &trans  &kp LS(MINUS)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&trans  &trans  &trans  &trans  &trans   &kp F12      &trans  &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ESCAPE
-&trans  &trans  &trans  &trans  &trans   &trans       &trans  &trans                                                   &kp PERIOD
+&lt 5 ESCAPE  &trans  &trans  &trans  &trans                      &kp F1  &kp F2  &kp F3  &kp F4   &kp F5
+&trans        &trans  &trans  &trans  &trans  &trans      &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans   &kp F12
+&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans                           &trans
             >;
         };
 
@@ -155,12 +146,12 @@
             >;
         };
 
-        layer_6 {
+        Settings {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
