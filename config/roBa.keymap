@@ -119,10 +119,10 @@
 
         ARROW {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LG(LEFT)    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LG(RIGHT)  &trans      &trans  &trans        &kp LEFT_BRACKET  &kp EQUAL     &JP_PIPE      &JP_YEN
-&kp LEFT_SHIFT  &kp HOME        &kp DOWN_ARROW  &kp END          &trans         &trans      &trans  &trans        &JP_UNDERSCORE    &trans        &trans        &trans
-&trans          &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                      &trans
+&kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                       &kp NUMBER_6       &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LG(LEFT)    &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LG(RIGHT)  &trans      &trans  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp EQUAL     &JP_PIPE      &JP_YEN
+&kp LEFT_SHIFT  &kp HOME        &kp DOWN_ARROW  &kp END          &trans         &trans      &trans  &trans             &JP_UNDERSCORE    &trans        &trans        &trans
+&trans          &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
