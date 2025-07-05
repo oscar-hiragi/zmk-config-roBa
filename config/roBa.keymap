@@ -81,6 +81,20 @@
             bindings = <&kp LS(0x89)>;
             label = "JP_PIPE";
         };
+
+        JP_LBKT: JP_LBKT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT>;
+            label = "JP_LBKT";
+        };
+
+        JP_RBKT: JP_RBKT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUHS>;
+            label = "JP_RBKT";
+        };
     };
 
     behaviors {
