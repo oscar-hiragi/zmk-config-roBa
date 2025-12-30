@@ -171,7 +171,7 @@
         ARROW {
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp TAB         &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PG_UP      &trans      &trans  &trans        &kp LEFT_BRACKET  &kp EQUAL     &JP_PIPE      &kt GRAVE
+&kp TAB         &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PG_UP      &trans      &trans  &trans        &kp LEFT_BRACKET  &kp EQUAL     &JP_PIPE      &kt A
 &kp LEFT_SHIFT  &kp HOME        &kp DOWN_ARROW  &kp END          &kp PAGE_DOWN  &trans      &trans  &trans        &JP_LBKT          &JP_RBKT      &JP_YEN       &JP_UNDERSCORE
 &trans          &trans          &trans          &trans           &trans         &trans      &trans  &trans                                                      &trans
             >;
