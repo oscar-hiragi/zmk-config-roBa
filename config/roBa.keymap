@@ -89,11 +89,11 @@
             label = "JP_LBKT";
         };
 
-        JP_RBKT: JP_RBKT {
+        JP_RBKT: JP_BACKQUOTE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUHS>;
-            label = "JP_RBKT";
+            bindings = <&kp LEFT_BRACE>;
+            label = "JP_BACKQUOTE";
         };
 
         memo_myDeskPC: memo_1 {
